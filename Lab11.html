@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var rand=Math.floor((Math.random()*10)+1);
+		var number=window.prompt("請輸入1-10之間的數字");
+
+		while(rand!=number){
+			number=window.prompt("請再輸入其他介於1-10的數字");	
+		}
+
+		while(rand==number){
+		document.writeln("你成功了!");
+		break;}
+	</script>
+
+</body>
+</html>
